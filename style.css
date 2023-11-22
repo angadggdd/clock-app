@@ -9,32 +9,20 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #080b0f;
-}
-.heading h1{
-   color: #fff;
-   margin-right: 20%;
+    background: #e674d5;
 }
 .container{
-    position: relative;
-    background: #2f363e;
-    /* min-height: 500px; */
-    border-radius: 20px;
-    border-top-left-radius: 225px;
-    border-top-right-radius: 225px;
-    box-shadow: 5px 25px 75px aqua,
-    10px 10px 70px aqua,
-    inset 5px 5px 10px aqua,
-    inset 5px 5px 20px aqua,
-    inset -5px -5px 15px aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-
+   display: grid;
+   grid-gap: 10px;
+  
 
 }
+.heading{
+   color: #fff;
+   margin-left: 90px;
+}
+
+
 .clock{
     position: relative;
     width: 450px;
@@ -128,7 +116,10 @@ width: 2px;
 
  /* digital clock */
  #time{
-   margin-bottom: 40px;
+   width: 300px;
+   margin-left: 80px;
+
+   background-color: #31373e;
    display: flex;
    padding: 10px 20px;
    font-size: 2em;
